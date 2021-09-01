@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    font-family: "anton", sans-serif;
+}
+header {
+    width:99%;
+    background-color: rgb(54, 124, 54);
+    margin:5px;
+    padding: 5px;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+.logo{
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    margin: 5px;
+    
+}
+
+.nav-link{
+    color: white;
+    font-size: 100%;
+    font-weight:normal;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
+div ul{
+    margin: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+main{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(207, 207, 129);
+    color: rgb(5, 5, 5);
+   
+}
+.mainsize{
+    margin: 5px;
+    padding: 5px;
+    height: 50%;
+    
+}
+
+footer{
+    text-align: end;
+}
