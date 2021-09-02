@@ -7,62 +7,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="/CSS/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
     <title>Servicios Informaticos</title>
 </head>
-<body Col-xs-12>
+<body>
     <header>
-        <div>
-            <img src="#" alt="">
-            <div>
-                <h1>Sobre Nosotros</h1>
-            </div>
-        </div>    
-    </header>
-    <nav class="navbar navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="/imagenes/logoDOS.png" alt="logo" width="70" height="54" class="d-inline-block align-text-top, logo">
+            <img src="/imagenes/logoDOS.png" alt="logo" width="70" height="54" class="img- fluis d-inline-block align-text-top rounded">
           </a>
-        <div>
-            <ul>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Trabajos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Software</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-              </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/paginas/trabajos.html">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/paginas/Software.html">Software</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/paginas/Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        </div>
-      </nav>
+      </nav>         
+    </header>
+    <!-----------------------CARUSEL----------------------->
     <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 0"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/imagenes/inicio.jpg" class="d-block w-100" alt="...">
+                <img src="/imagenes/1.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/imagenes/inicio5.jpeg" class="d-block w-100" alt="...">
+                <img src="/imagenes/2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/imagenes/inicio7.jpeg" class="d-block w-100" alt="...">
+                <img src="/imagenes/5.jpeg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/imagenes/FONDO.jpeg" class="d-block w-100" alt="...">
+                <img src="/imagenes/inicio4.jpeg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -75,12 +74,23 @@
             </button>
           </div>
     </main>
-    <main>
-      <div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse soluta nulla sequi numquam eligendi possimus aliquid asperiores vero blanditiis ea. Praesentium eveniet consequatur id, sapiente autem dolore asperiores eum ratione ullam exercitationem maiores, neque non, assumenda voluptate et nobis? Delectus mollitia eligendi cumque repellendus expedita libero accusantium animi ipsa illum.</p>
-      </div>
-    </main>
-    <footer>
+    <br>
+    <!---------------------SECTION------------------->
+    <section>
+        <h1 class="d-none d-md-flex justify-content-md-center ">SOBRE NOSOTROS</h1>
+          <div class="container text-center display-5"> 
+            <p>Atendido por su dueño,<span class="fw-bold">DOSComputacion</span> es una empresa dedicada al servicio tecnico especializada en armado, mantenimiento y reparacion de PCs. Realizamos enzamblados de equipos a medida de los clientes y ofrecemos orientacion en base a las necesidades del usuario. Nos desenvolvemos en la parte de software, sistemas operativos Windows, Linux y OSX, tambien en programas para los mismos. Realizamos reparaciones de motherboard de notebooks, cambios de teclados, displays, discos rigidos. Venta de cargadores y baterias, contamos con mas de<spam class="fw-bold"> 17 años </spam>de experiencia y seguimos ampliando nuestro conocimiento para darle al usuario una respuesta rapida y efectiva</p>
+            </div>
+            <div class="container text-center  display-6">
+                <p>Incluimos el trabajo a distancia a traves de nuestro servicio remoto de asistencia al cliente, siempre y cuando el problema se pueda resolver de esa manera, de lo contrario los esperamos en nuestro local ubicado en el subsuelo de Galeria Jardin</p>
+            </div>
+    </section>
+<br><br>
+    <aside>
+        <div><h3 class="text-center">Florida 537 - Local 346 - Subsuelo</h3></div>
+    </aside>
+  </section>
+    <footer class="bg-light border border-dark border-3">
         <div>
             <a href="https://www.facebook.com/Doscompu"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -91,10 +101,10 @@
                 </svg>
             </a>
             <a href="#"></a>
-        </div>
-         
-    </footer>
+        </div>    
+      </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
