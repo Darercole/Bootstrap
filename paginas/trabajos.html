@@ -1,44 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/bootstrap.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    
+    <title>Nuestros Trabajos</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">NOSOTROS</a>
-                </li>
-                <li>
-                    <a href="#">GALERIA</a>
-                </li>
-                <li>
-                    <a href="#">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="#">PREGUNTAS FRECUENTES</a>
-                </li>
-                <li>
-                    <a href="#">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="/imagenes/logoDOS.png" alt="logo" width="70" height="54" class="img- fluis d-inline-block align-text-top rounded">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/index.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="/paginas/trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="/paginas/Software.html">Software</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="/paginas/Contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>         
+          </header>
+        <main>
+            <div class="textgaleria">
+                <h2 class="retoque">PC Basicas</h2>
+            </div>
+            <br>
+                <div class="galeriaPadre">
+                    <div>
+                        <img src="../imagenes/PCBasic.jpg" alt="pc basica" class="circulo">
+                    </div>
+                    <div>
+                        <img src="../imagenes/pc1.jpg" alt="pc basica con rgb"class="circulo">
+                    </div>
+                    <div>
+                        <img src="../imagenes/bacisa2.jpg" alt="basica2"class="circulo">
+                    </div>
+                    <div>
+                        <img src="../imagenes/basica3.jpg" alt="basica3"class="circulo">
+                    </div>
+                    <p class="paraGaleria">Son aquellos equipos que estan compuestos por un hardware (partes) normales, por lo general economicas y estan destinadas a un uso domestico y de oficina</p>    
+                </div>
+            <br>
+            </div>
+                <div class="textgaleria">
+                    <h2 class="retoque">PC Gamers</h2>
+                </div>
+            <br>
+            <div class="galeriaPadre">
+                <div>
+                    <img src="../imagenes/PCGamer.jpg" alt="gamer pc"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/pcmaster1.jpg" alt="gamer2"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/gamer3.jpg" alt="gamer pc"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/gamer4.jpg" alt="gamer pc"class="circulo">
+                </div>
+                <div>
+                    <p class="paraGaleria">Este tipo de PC esta destinado no necesariamente al publico Gamer, si no tambien para el trabajo exigente.Suelen ser para editores de video o sonido, diseño, etc.
+                Son muchisimos mas caros que los equipos basicos y actualmente se utiliza el RGB (luces) para ser mas pintorescas
+                </p>
+                </div>
+            </div>
+            <div class="textgaleria">
+                <h2 class="retoque">Notebook Basicas</h2>
+            </div>
+            <div class="galeriaPadre">
+                <div>
+                    <img src="../imagenes/NoteBasic.jpg" alt="notebook basica"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/Note1.jpg" alt="note2"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/Notebasica.jpg" alt="basica2"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/Notebasica2.jpg" alt="basica3"class="circulo">
+                </div>
+                <div>
+                    <p class="paraGaleria">Notebooks de este tipo suelen ser para el uso normal de oficinistas u hogares, que no demanden mucho espacio y trabajo</p>
+                </div>
+            </div> 
+
+            <div class="textgaleria">
+                <h2 class="retoque">Notebooks Gamers</h2>
+            </div>
+            <div class="galeriaPadre">
+                <div>
+                    <img src="../imagenes/NoteGamer.jpg" alt="notebook gamer"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/NoteG.jpg" alt="noteg"class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/NoteG2.jpg" alt="note2" class="circulo">
+                </div>
+                <div>
+                    <img src="../imagenes/Ngamer3.jpg" alt="game3"class="circulo">
+                </div>
+                <div>
+                    <p class="paraGaleria">Muy similar a la descripcion de una PC Gamer pero portatil, estas Notebooks son mucho mas caras devido al hardware que las componen, pueden ser con rgb o sin y por lo general traen mas memoria ram, discos solidos y placa de video dedicada, que le permite realizar trabajos exigentes y ovbiamente jugar</p>
+                </div>
+            </div>
+
+            </main>
+        <aside class="dire">
+            <div><h3>Florida 537 - Local 346 - Subsuelo</h3></div>
+        </aside>
+<br>
+        <footer>
+            <div class="flex"> 
+                <div><a href="https://www.instagram.com/doscomputacion/?hl=es-la"><img src="../imagenes/IGColor.png" alt="instagram"class="rotar"></a></div>
+                <div><a href="https://www.facebook.com/Doscompu/?ref=pages_you_manage"><img src="../imagenes/FACE1.png" alt="facebook"class="rotar"></a></div>
+                <div><a href="https://wa.me/+5491158720630?text=Hola%20necesito%20informacion%20,consulta%20y%20o%20soporte"><img src="../imagenes/WSP.png" alt="whatsapp"class="rotar"></a></div>
+            </div>
+        </footer>
         
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem natus magnam iure facilis hic dolor consequatur velit voluptatum, perspiciatis iste rem. Provident placeat, adipisci, commodi eveniet corporis eius praesentium facilis, nemo id sunt iure! Libero natus eaque harum ut dolore. Aut explicabo facere quibusdam odit porro voluptas! Veniam, tenetur voluptatum.</p>
-        </div>
-    </main>
-    <aside>
-        fotos carusel
-    </aside>
-    <footer>
-        redes
-    </footer>
-</body>
-</html>
+    </body>
