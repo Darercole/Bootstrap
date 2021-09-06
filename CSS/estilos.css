@@ -1,12 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 @media (max-width: 767px) {
 .arreglo {
 display: flex;
 justify-content:center;
 }
 }
-
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+body{
+    
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "anton", sans-serif;
+}
 .fondo{
-    background-image: url(/imagenes/Fondo1.jpg);
+    
     background-position: 50%;
     
 }
@@ -17,7 +34,7 @@ h1{
 }
 ul li a:hover{
     color:greenyellow;
-    background-color: rgb(51, 114, 51);
+    background-color: rgb(46, 102, 46);
     border-radius: 5px;
     margin: 1px;
     border: solid black;
@@ -28,12 +45,7 @@ main{
     
 }
 .color{
-    color: rgb(238, 206, 24);
-}
-section{
-    font-family: "Anton", sans-serif;
-    /*background-color: rgb(40, 99, 40);*/
-    
+    color: rgb(196, 174, 53);
 }
 /*-------------GALERIA DE IMAGENES----------*/
 #galeria .col-lg-4 {
@@ -49,6 +61,7 @@ section{
 #galeria img:hover{
     border: solid white 5px;
 }
+/**************ASIDE**********************/
 aside{
     font-family: "Anton", sans-serif;
     /*background-color: rgb(40, 99, 40);*/
@@ -63,7 +76,7 @@ aside{
     transform: rotate(360deg);
 }
 footer{
-    padding: 2px;
+    padding: 4px;
     margin:10px;
     margin-right: 20px;
     display: flex;
@@ -72,4 +85,41 @@ footer{
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
     
+}
+/*******HOJA DE CONTACTO***********/
+.fondoContacto{
+    background-image: url(/imagenes/Fondo1.jpg);
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+
+}
+#boton{
+    background: rgb(46, 102, 46);
+    color: white;
+    padding: 10px;
 }
