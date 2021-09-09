@@ -1,14 +1,103 @@
-
+@media (max-width: 807px) {
+    .arreglo {
+    display: flex;
+    justify-content:center;
+    }
+    .para_soft{
+        display:none;
+    }
+    }
 @import "colores";  
 
+
+
+body{
+    background-image: url(/imagenes/Fondo1.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "anton", sans-serif;
+}
+
+////////////////MENU NAVEGACION////////////////
+
+nav{
+    background-color: $navcolor;
+    
+}
+
+/////////////////SECTION//////////////////////
+h1{
+    font-family: "Anton", sans-serif;
+    background-color: rgba(8, 8, 8, 0.5);
+}
 p{
-    color:$texto_index;
+    
+    color:$index;
     span{
         color:$color;
     }   
 }
+.texto-borde {
+    -webkit-text-stroke: 1px black;
+}
+h3{
+    color:white;
+}
+////////////////////////SOFT UTIL/////////////////////
 
-        
+    
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+    
+.card{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,1);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+
+h4{
+    color: $navcolor;
+    }
+p{
+    color:$navcolor; 
+}
+button{
+    background:black;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(252, 250, 250);
+}
+    }
+}
+.card:hover{
+    translate: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+////////////////////////footer ///////////////////////       
 .rotar{
     width: 30px;
     transition-duration: 3s;
@@ -23,4 +112,9 @@ footer{
     justify-content: flex-end;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
-}           
+    
+}
+
+.util{
+    display: flex;
+}

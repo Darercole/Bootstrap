@@ -30,10 +30,11 @@ body{
 
 h1{
     font-family: "Anton", sans-serif;
-    background-color: rgb(192, 240, 104);
+    background-color: rgba(8, 8, 8, 0.5);
+    
 }
 ul li a:hover{
-    color:greenyellow;
+    
     background-color: rgb(46, 102, 46);
     border-radius: 5px;
     margin: 1px;
@@ -89,6 +90,9 @@ footer{
 /*******HOJA DE CONTACTO***********/
 .fondoContacto{
     background-image: url(/imagenes/Fondo1.jpg);
+}
+.texto-borde {
+    -webkit-text-stroke: 1px black;
 }
 form {
     width: 450px;
