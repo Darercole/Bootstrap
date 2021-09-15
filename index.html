@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/estilos.css">
-    
+    <meta name="description" content="servicio tecnico de PC y Notebooks desde hace 17 años en el rubro">
+    <meta name="keywords" content="service, pc y notebook, mantenimiento, reparacion, ">
     <title>Servicios Informaticos</title>
 </head>
 <body class="fondo">
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
             <img src="./imagenes/logoDOS.png" alt="logo" width="70" height="54" class="img- fluis d-inline-block align-text-top rounded">
@@ -25,17 +26,20 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Nosotros</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./paginas/trabajos.html">Trabajos</a>
+              <a class="nav-link active" href="./paginas/trabajos.html">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./paginas/Software.html">Software</a>
+              <a class="nav-link active" href="./paginas/Software.html">Software</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./paginas/Contacto.html">Contacto</a>
+              <a class="nav-link active" href="./paginas/Servicios.html">Servicios</a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="./paginas/Contacto.html">Contacto</a>
+                  </li>
             </ul>
           </div>
         </div>
@@ -43,46 +47,58 @@
     </header>
     <!-----------------------CARUSEL----------------------->
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 0"></button>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 0"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="imagen carrusel service">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="coloreo">Servicio Técnico de PC y Notebooks</h3>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/5.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/inicio4.jpeg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="imagen carrusel soft">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="coloreo">Reparaciones de Software y Hardware</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel3.jpg" class="d-block w-100" alt="imagen carrusel mantenimiento">
+            <div class="carousel-caption d-none d-md-block justify-content-md-center">
+              <h3 class="coloreo">Mantenimiento de equipos</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel4.jpg" class="d-block w-100" alt="imagen carrusel pc">
+            <div class="carousel-caption d-none d-md-block ">
+              <h3 class="coloreo">Ampliaciones de memorias RAM y SDD</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </main>
     
     <!---------------------SECTION------------------->
     <section>
         <h1 class="d-none d-md-flex justify-content-md-center" style="color:black">SOBRE NOSOTROS</h1>
           <div class="text-justify display-6"> 
-            <p class="texto-borde  m-3">Atendido por su dueño,<span>DOSComputacion</span> es una empresa dedicada al servicio tecnico especializada en armado, mantenimiento y reparacion de PCs. Realizamos enzamblados de equipos a medida de los clientes y ofrecemos orientacion en base a las necesidades del usuario. Nos desenvolvemos en la parte de software, sistemas operativos Windows, Linux y OSX, tambien en programas para los mismos. Realizamos reparaciones de motherboard de notebooks, cambios de teclados, displays, discos rigidos. Venta de cargadores y baterias, contamos con mas de<span> 17 años </span>de experiencia y seguimos ampliando nuestro conocimiento para darle al usuario una respuesta rapida y efectiva</p>
+            <p class="texto-borde  m-3">Atendido por su dueño,<span>DOSComputacion</span> es una empresa dedicada al servicio técnico especializada en armado, mantenimiento y reparación de PCs. Realizamos ensamblados de equipos a medida de los clientes y ofrecemos orientación en base a las necesidades del usuario. Nos desenvolvemos en la parte de software, sistemas operativos Windows, Linux y OSX, también en programas para los mismos. Realizamos reparaciones de motherboard de notebooks, cambios de teclados, displays, discos rígidos. Venta de cargadores y baterías, contamos con mas de<span> 17 años </span>de experiencia y seguimos ampliando nuestro conocimiento para darle al usuario una respuesta, rápida y efectiva</p>
             </div>
             <div class="text-justify  display-6">
-                <p class="texto-borde text-center m-3"style="color: rgb(196, 169, 18);">Incluimos el trabajo a distancia a traves de nuestro servicio remoto de asistencia al cliente, siempre y cuando el problema se pueda resolver de esa manera, de lo contrario los esperamos en nuestro local ubicado en el subsuelo de Galeria Jardin</p>
+                <p class="texto-borde text-center m-3"style="color: rgb(10, 82, 52);">Incluimos el trabajo a distancia a traves de nuestro servicio remoto de asistencia al cliente, siempre y cuando el problema se pueda resolver de esa manera, de lo contrario los esperamos en nuestro local ubicado en el subsuelo de Galería Jardín</p>
             </div>
     </section>
 
@@ -95,11 +111,10 @@
     <!------------------FOOTER--------------------------->
     
     <footer class="arreglo opacity-75">
-      <div > 
-        <a href="https://www.instagram.com/doscomputacion/?hl=es-la"target="_blank"><img src="./imagenes/IGColor.png" alt="instagram"class="rotar m-1" ></a>
-        <a href="https://www.facebook.com/Doscompu/?ref=pages_you_manage"target="_blank"><img src="./imagenes/FACE1.png" alt="facebook"class="rotar m-1"></a>
-        <a href="https://wa.me/+5491158720630?text=Hola%20necesito%20informacion%20,consulta%20y%20o%20soporte"target="_blank"><img src="./imagenes/WSP.png" alt="whatsapp"class="rotar m-1"></a>
-        
+        <div > 
+          <a href="https://www.instagram.com/doscomputacion/?hl=es-la"target="_blank"><img src="./imagenes/IGColor.png" alt="instagram"class="rotar m-1" ></a>
+          <a href="https://www.facebook.com/Doscompu/?ref=pages_you_manage"target="_blank"><img src="./imagenes/FACE1.png" alt="facebook"class="rotar m-1"></a>
+          <a href="https://wa.me/+5491158720630?text=Hola%20necesito%20informacion%20,consulta%20y%20o%20soporte"target="_blank"><img src="./imagenes/WSP.png" alt="whatsapp"class="rotar m-1"></a>
         </div>
       </footer>
     

@@ -10,9 +10,11 @@
 @import "colores";  
 
 
-
+main{
+    margin-top: 20px;
+}
 body{
-    background-image: url(/imagenes/Fondo1.jpg);
+    background: linear-gradient(green, yellow);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;
@@ -31,6 +33,13 @@ h1{
     font-family: "Anton", sans-serif;
     background-color: rgba(8, 8, 8, 0.5);
 }
+.coloreo{
+    color: $carrucolor;
+    font-size: bold;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    
+}
 p{
     
     color:$index;
@@ -38,11 +47,11 @@ p{
         color:$color;
     }   
 }
-.texto-borde {
+/*.texto-borde {
     -webkit-text-stroke: 1px black;
-}
+}*/
 h3{
-    color:white;
+    color:$index
 }
 ////////////////////////SOFT UTIL/////////////////////
 
@@ -61,7 +70,7 @@ h3{
     width: 350px;
     height: 300px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0,0,0,1);
+    box-shadow: 0 2px 2px $index;
     overflow: hidden;
     margin: 20px;
     text-align: center;

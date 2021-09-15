@@ -15,6 +15,7 @@ justify-content:center;
         width: 100%;
     }
 }
+
 body{
     
     background-size: 100vw 100vh;
@@ -33,6 +34,10 @@ h1{
     background-color: rgba(8, 8, 8, 0.5);
     
 }
+h3{
+    display: flex;
+    justify-content: center;
+}
 ul li a:hover{
     
     background-color: rgb(46, 102, 46);
@@ -41,14 +46,45 @@ ul li a:hover{
     border: solid black;
 }
 main{
+    margin-top: 0px;
     font-family: "Anton", sans-serif;
-    
+    margin-top: 90px;
     
 }
 .color{
     color: rgb(196, 174, 53);
 }
+/*-----------SERVICIOS---------------*/
+ul {
+    list-style: none;
+}
+.conte{
+    text-align: center;
+    padding: 10px;
+    background-color: chartreuse;
+    width: 50%;
+    margin: 5px;
+    border-radius: 3px;
+}
+.titulo2{display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: chocolate;
+}
+
+
+
+
+
 /*-------------GALERIA DE IMAGENES----------*/
+#galeria{
+    margin-top: 90px;
+
+}
 #galeria .col-lg-4 {
     padding: 25px;
     margin: 0 !important;
@@ -126,4 +162,30 @@ textarea{
     background: rgb(46, 102, 46);
     color: white;
     padding: 10px;
+}
+.contenedora{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.ubi{
+    animation: colores 0.5s infinite;
+}
+@keyframes colores {
+    0% {
+        color:yellow;
+    }
+    33%{
+        color: tomato;
+    }
+    66%{
+        color: red;
+    }
+    100%{
+        color: green;
+    }
 }
