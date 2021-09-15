@@ -66,7 +66,8 @@ ul {
     margin: 5px;
     border-radius: 3px;
 }
-.titulo2{display: flex;
+.titulo2{
+    display: flex;
     justify-content: center;
     text-align: center;
     padding: 10px;
