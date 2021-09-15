@@ -17,11 +17,11 @@ justify-content:center;
 }
 
 body{
-    
+    background: linear-gradient(green, yellow);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;
-    font-family: "anton", sans-serif;
+    font-family: "anton", sans-serif; 
 }
 .fondo{
     
@@ -46,7 +46,7 @@ ul li a:hover{
     border: solid black;
 }
 main{
-    margin-top: 0px;
+    
     font-family: "Anton", sans-serif;
     margin-top: 90px;
     
@@ -125,8 +125,11 @@ footer{
     
 }
 /*******HOJA DE CONTACTO***********/
-.fondoContacto{
+/*.fondoContacto{
     background-image: url(../imagenes/Fondo1.jpg);
+}*/
+.correccion{
+    margin-top: 90px;
 }
 .texto-borde {
     -webkit-text-stroke: 1px black;
