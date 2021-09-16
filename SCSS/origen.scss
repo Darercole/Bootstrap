@@ -23,10 +23,20 @@ body{
 
 ////////////////MENU NAVEGACION////////////////
 
-nav{
-    background-color: $navcolor;
-    
+nav{   
+    background-color: $navcolor;   
 }
+ul {
+    li{
+        a:hover{
+            background-color: rgb(46, 102, 46);
+            border-radius: 5px;
+            margin: 1px;
+            border: solid black;     
+        }
+    }
+    
+}    
 
 /////////////////SECTION//////////////////////
 h1{

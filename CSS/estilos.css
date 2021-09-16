@@ -5,6 +5,9 @@
   .para_soft {
     display: none; } }
 
+body {
+  font-family: "anton", sans-serif;
+  background-image: url(/imagenes/Fondo1.jpg); }
 
 main {
   margin-top: 20px; }
@@ -17,18 +20,23 @@ body {
   font-family: "anton", sans-serif; }
 
 nav {
-  background-color: #2fce1a; }
+  background-color: #080808; }
+
+ul li a:hover {
+  background-color: #2e662e;
+  border-radius: 5px;
+  margin: 1px;
+  border: solid black; }
 
 h1 {
   font-family: "Anton", sans-serif;
   background-color: rgba(8, 8, 8, 0.5); }
 
 .coloreo {
-  color: rgb(224, 255, 45);
+  color: #d6ec09;
   font-size: bold;
-  background-color: black; 
-  
-}
+  background-color: black;
+  border-radius: 2px; }
 
 p {
   color: black; }
@@ -61,9 +69,9 @@ h3 {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px; }
     .container .card h4 {
-      color: #2fce1a; }
+      color: #080808; }
     .container .card p {
-      color: #2fce1a; }
+      color: #080808; }
     .container .card button {
       background: black;
       border-radius: 10px; }
