@@ -7,8 +7,12 @@
 
 body {
   font-family: "anton", sans-serif;
-  background-image: url(/imagenes/Fondo1.jpg); }
-
+  background-image: url(/imagenes/Fondo1.jpg);
+  width: 100%;
+}
+header{
+  height: 60px;
+}
 main {
   margin-top: 20px; }
 

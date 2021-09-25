@@ -4,15 +4,28 @@
 }
 
 
+
 @media (max-width: 767px) {
 .arreglo {
 display: flex;
 justify-content:center;
 }
+
 }
 @media (max-width:480px){
     form{
         width: 100%;
+    }
+    .servifondo{
+        font-size:15px;
+    }
+    .latir {
+        display: inline-block;
+        font-size: 100px;
+        text-shadow: 0 0 10px #222,1px 1px  0 #ffffff;
+        color: rgb(37, 105, 74);
+        animation: latidos .7s infinite;
+        transform-origin: center;   
     }
 }
 
@@ -28,11 +41,14 @@ body{
     background-position: 50%;
     
 }
+header{
+    height: 60px;
+}
 
 h1{
     font-family: "Anton", sans-serif;
     background-color: rgba(8, 8, 8, 0.5);
-    
+    width: 100%;
 }
 h3{
     display: flex;
@@ -45,10 +61,13 @@ ul li a:hover{
     margin: 1px;
     border: solid black;
 }
+section{
+    height: fit-content;
+}
 main{
-    
+    margin-top: 20px;
     font-family: "Anton", sans-serif;
-    margin-top: 90px;
+    
     
 }
 .color{
@@ -63,6 +82,7 @@ ul {
     text-align: center;
     padding: 10px;
     background-color: rgb(0, 0, 0);
+    margin-top: 10px;
     margin: 5px;
     border-radius: 30px;
     
@@ -78,10 +98,10 @@ ul {
     
 }
 .t3{
-    color: rgb(157, 255, 0);
+    color: rgb(208, 255, 0);
 }
 .titulo3{
-     animation: fadeInOut .7s infinite;
+    animation: fadeInOut .7s infinite;
 }
 @keyframes latidos {
     from { transform: none; }
@@ -90,17 +110,17 @@ ul {
 }
 .latir {
 	display: inline-block;
-	font-size: 40px;
-	text-shadow: 0 0 10px #222,1px 1px  0 #ffffff;
+	font-size: 20px;
+	text-shadow: 0 0 5px rgb(210, 226, 166),1px 1px  0 #d4e9a3;
 	color: rgb(37, 105, 74);
 	animation: latidos .7s infinite;
 	transform-origin: center;   
 }
 .servifondo{
     background-color: rgb(2, 2, 2);
-    height: 120px;
+    height: 170px;
     padding: 10px;
-    margin: 15px;
+    margin: 5px;
     border-radius: 30px;
     color: white;
 }
@@ -123,7 +143,7 @@ ul {
 
 /*-------------GALERIA DE IMAGENES----------*/
 #galeria{
-    margin-top: 90px;
+    margin-top: 30px;
 
 }
 #galeria .col-lg-4 {
@@ -142,35 +162,71 @@ ul {
 /**************ASIDE**********************/
 aside{
     font-family: "Anton", sans-serif;
-    /*background-color: rgb(40, 99, 40);*/
     color: black;
 }
         /*----FOOTER----*/
-
-
-.rotar{
-    width: 30px;
-    transition-duration: 3s;
-    transform: rotate(360deg);
-}
 footer{
-    padding: 4px;
-    margin:10px;
-    margin-right: 20px;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: black;
+}
+.container_footer{
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
 }
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box_footer .logo_footer img{
+    width: 80px;
+    border-radius: 10px;
+}
+.box_footer .minidesc{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: rgb(197, 193, 193);
+    font-size: 18px;
+}
+.box_footer h2{
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.box_footer a{
+    margin-top: 10px;
+    color:  rgb(30, 103, 29);
+    font-weight: 400;
+    text-decoration:none ;
+}
+.box_footer a:hover{
+    opacity: 0.8;
+}
+
+.box_footer a .fab{
+    font-size: 20px;
+    margin: 5px;
+}
+.box_derechos{
+    max-width: 1200px;
+    margin: auto;
+    text-align:center ;
+    padding: 0px 40px;
+    color: white;
+    font-weight: 150;
+}
+.box_derechos hr{    
+    height: 2px;
+}
+
 /*******HOJA DE CONTACTO***********/
-/*.fondoContacto{
-    background-image: url(../imagenes/Fondo1.jpg);
-}*/
-.correccion{
-    margin-top: 90px;
-}
+
 .texto-borde {
     -webkit-text-stroke: 1px black;
 }
