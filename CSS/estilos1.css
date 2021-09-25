@@ -36,11 +36,6 @@ body{
     margin: 0;
     font-family: "anton", sans-serif; 
 }
-.fondo{
-    
-    background-position: 50%;
-    
-}
 header{
     height: 60px;
 }
@@ -69,6 +64,9 @@ main{
     font-family: "Anton", sans-serif;
     
     
+}
+.ubi_h1{
+    margin-top: 20px;
 }
 .color{
     color: rgb(196, 174, 53);
@@ -201,7 +199,7 @@ footer{
 }
 .box_footer a{
     margin-top: 10px;
-    color:  rgb(30, 103, 29);
+    color:  rgb(88, 158, 87);
     font-weight: 400;
     text-decoration:none ;
 }
